@@ -27,8 +27,8 @@ export default defineConfig(withI18n({
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    // ]
   }
 }, { locales: ['zhHans'] }))
