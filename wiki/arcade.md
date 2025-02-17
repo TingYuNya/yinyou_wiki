@@ -34,7 +34,16 @@ HDD运行环境比较特殊，路径勿含有中文，尽量放在非E盘，如�
 
 舞萌和音击为unity引擎，不需要多高配置，需求内存8g以上，cpu i5 8600以上，显卡 gtx760以上，最低500z
 
-中二节奏是自研引擎，最低配置稍微提高一些。",
+中二节奏是自研引擎，最低配置稍微提高一些
+
+| 项目   | 最低配置                                   | 推荐配置                     |
+| ------ | ------------------------------------------ | ---------------------------- |
+| 处理器 | x86处理器，4核心2Ghz或更高                 | Intel i5-8600或更高          |
+| 内存   | DDR4 8G或以上                              | DDR4 8G*2                    |
+| 显卡   | NAVID GTX760                               | NVIDIA  GTX1050ti            |
+| 硬盘   | 游戏本体约14G，建议预留20G以上空间便于解压 | 256GB固态                    |
+| 显示器 | 分辨率1920\*1080 60Hz                      | 街机相同屏幕尺寸的4k高刷直屏 |
+| 系统   | Windows 10                                 | Windows 10专业版             |
 
 ## 舞萌常见问题
 
@@ -129,6 +138,49 @@ amfs和appdata的必须要放在磁盘根目录，否则进游戏会出现4105�
 游戏开启了独占音频并且系统音频设置里没有开启独占模式
 
 打开mu3.ini，将WasapiExclusive=1修改为0即可
+
+### 联机配置
+
+首先，请将segatools.ini文件按照以下要求更改：
+
+```ini
+[netenv] enable=1
+addrSuffix=37
+;这里是你的ip最后几位，例如192.168.3.xxx。如使用了zerotier请查看zerotier派给你的ip 
+
+[gpio] dipsw=1
+
+[keychip]subnet=192.168.196.0
+;这边是你的ip，但后面填成0，例如你的ip为192.168.3.xxx，那么此处填为192.168.3.0）
+```
+
+MU3.ini的修改部分 ：
+
+```ini
+[Network] UseLocalCollab=1
+```
+
+其他设置：
+
+每个网络下只能有一个基准机，其他需要设置成**基準機に従う**，两台机器需要在同一组（进入游戏后Test - **ゲーム設定** - **基准机设定**），四人ABCD相同即可
+
+默认情况下：在start.bat中，对于主机（基准机），需要删掉里面注入的config\_client.json，保留 command.json
+
+对于客机（从机），需要删掉里面注入的config\_server.json，保留command.json。正常的start.bat同时拥有 config\_client.json、config\_server.json和config\_command .json
+
+**如果您无法匹配到，可以尝试两台都设置为基准机**
+
+如果您使用了VPN/P2P服务（例如zerotier或softEther），则在start.bat中，无论您是否为主机，都需要删除里面注入的 config\_client.json，只保留command.json
+
+也就是说，您的start.bat应该保留：config\_server.json、config\_common.json
+
+进入游戏后，您仍然需要设置基准机与从基准机，并保持在同一组内
+
+Tips：联机的机器需要保持在同一版本，例如1.45-A与1.45-A
+
+联机的两台机器，DNS地址可以不同，两边机器是不受服务器地址影响的
+
+server.json里面的配置应该是：1，0，true，true，20，false（大部分情况下都可以运行）
 
 ## 读卡器常见问题
 
