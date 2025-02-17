@@ -16,7 +16,7 @@
 
 ## 感谢名单
 
-主编：Several.  Sakarina  Ricaran
+主编：TingYuNya  Sakarina  Ricaran
 
 程序：Error063
 

@@ -15,10 +15,10 @@ hero:
 #      link: /api-examples
 
 #features:
-#  - title: Feature A
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#  - title: Feature B
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Tips
+    details: 更新内容：修复了一些BUG
+  - title: 建站纪念
+    details: 2025.2.15,音游Wiki诞生了
 #  - title: Feature C
 #    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
