@@ -203,8 +203,6 @@ https://affinelab.notion.site/Aime-Manual-66c171d3fc144ae2bc4369d45000f0eb
 
 待补充
 
-**其他待补充**
-
 
 ## 太鼓达人常见问题
 待补充
