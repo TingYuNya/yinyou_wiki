@@ -1023,13 +1023,13 @@ FANG台交流群：1041768100
 
 ### FAUCETWP PORTABLE EDITION/F2PE/珐骛丝小台常见问题
 
-#### F2PE Options 上位机使用
+图片存在问题，后期修正
+
+#### F2PE Options 上位机使用（@GAMO2官网）
 
 [点击下载上位机](https://support.gamo2.com/wp-content/uploads/2024/01/F2PE-Options-V1.9.zip)
 
 ##### 烧录固件、切换模式、全局参数
-
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\image-1.png" alt="img" style="zoom:25%;" />
 
 | ①    | 打开固件按钮                                                 |
 | ---- | ------------------------------------------------------------ |
@@ -1046,16 +1046,12 @@ FANG台交流群：1041768100
 
 ##### 键盘&鼠标布局
 
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\2024-01-19_22-35-25.png" alt="img" style="zoom:25%;" />
-
 | ①    | 点击映射按钮，按下键盘任意按键，即可绑定键值 |
 | ---- | -------------------------------------------- |
 | ②    | 下拉菜单选择鼠标 X 轴， Y 轴。               |
 | ③    | 与当前鼠标移动方向相反。                     |
 
 ##### 键盘布局
-
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\image-2.png" alt="img" style="zoom:25%;" />
 
 | ①    | 点击映射按钮，按下键盘任意按键，即可绑定键值                 |
 | ---- | ------------------------------------------------------------ |
@@ -1066,8 +1062,6 @@ FANG台交流群：1041768100
 
 ##### Steam布局
 
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\image-3.png" alt="img" style="zoom:25%;" />
-
 | ①    | 下拉菜单，选择任意 DS4 的键值。支持选择相同的键值。 旋钮的模拟量与按键键值，有矛盾关系，不能设置为相同。 **例子：** 如果 VOL-L 设置为 LeftStick X-axis，那么按键不能设置为 LeftStick left，LeftStick right |
 | ---- | ------------------------------------------------------------ |
 | ②    | 指定旋钮为手柄上的任意一个轴                                 |
@@ -1077,8 +1071,6 @@ FANG台交流群：1041768100
 
 ##### 灯光设置
 
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\image-4.png" alt="img" style="zoom:25%;" />
-
 | ①    | 设置 7 个按键和 2 个旋钮触发时的灯光颜色。 此处设置的 RGB 颜色的亮度，会受到全局灯光亮度的影响 |
 | ---- | ------------------------------------------------------------ |
 | ②    | BT 和 FX 文字的灯光颜色                                      |
@@ -1086,43 +1078,23 @@ FANG台交流群：1041768100
 | ④    | 固定颜色，只能选择 1 种颜色                                  |
 | ⑤    | 渐变颜色，可以指定 2 种颜色。过渡颜色由算法自动完成          |
 
-#### 如何更换编码器
+#### 如何更换编码器（@GAMO2官网）
 
 1 使用 2.0mm 内六角扳手（或螺丝刀）拆解旋钮。注意每个旋钮有两个位置需要拧松。
 
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0100.png" alt="img" style="zoom:25%;" />
-
 2 注意，编码器上，有1个透明的垫片，注意取出
-
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0800.png" alt="img" style="zoom:25%;" />
 
 3 用2.0mm内六角扳手（或螺丝刀）去除背面3个螺丝，并取下盖板
 
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0300.png" alt="img" style="zoom:25%;" />
-
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0400.png" alt="img" style="zoom:25%;" />
-
 4 用钳子，拧松螺母，并取下金属垫圈
-
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0500.png" alt="img" style="zoom:25%;" />
 
 5 拔下白色插头并连接至新的编码器线路
 
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0600.png" alt="img" style="zoom:25%;" />
-
 6 将编码器装回控制器时，请注意将接线放置在编码器的侧下方，且编码器上的限位点对准控制器的开孔位置。
-
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0700.png" alt="img" style="zoom:25%;" />
-
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0701.png" alt="img" style="zoom:25%;" />
 
 7 装回金属垫圈，并用螺母固定编码器，然后将透明垫圈放置在螺母上方
 
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0800.png" alt="img" style="zoom:25%;" />
-
 8 将旋钮内部的长顶丝对准编码器轴的平面位置
-
-<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0900.png" alt="img" style="zoom:25%;" />
 
 非常重要，必看:
 
@@ -1130,7 +1102,7 @@ FANG台交流群：1041768100
 
 ### 客制化小台常见问题
 
-#### 迷你台
+#### 迷你台/小台
 
 待补充
 
