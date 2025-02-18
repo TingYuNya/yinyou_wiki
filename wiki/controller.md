@@ -562,11 +562,9 @@ aime风格贴纸一张
 
 使用F8按键，手台会对触摸进行灯光反馈
 
-读卡器仅在灯效空白时和游戏标题界面时生效，其他界面读卡器不会工作，如果要测试读卡器，可以将aime卡放置在手台读卡区后再接上手台电源。
+读卡器仅在灯效空白时和游戏标题界面时生效，其他界面读卡器不会工作，如果要测试读卡器，可以将aime卡放置在手台读卡区后再接上手台电源
 
 <img src="https://doc.handevice.com/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4fda0216-2b71-42e2-9d07-4ad944455d87%2Fedaf6c12-3747-475c-bdeb-5427956ac8a2%2FUntitled.png?table=block&id=a8021da1-aa80-45ec-9bb3-5e1d057e212e&spaceId=4fda0216-2b71-42e2-9d07-4ad944455d87&width=1420&userId=&cache=v2" alt="img" style="zoom: 67%;" />
-
-fufubot使用指南：https://performai.notion.site/fufubot-segatools-SUN-PLUS-SUN-NEW-NEW-PLUS-3fdab52dd41a4926939651bf46cec647
 
 ##### 游戏内测试
 
@@ -1025,7 +1023,110 @@ FANG台交流群：1041768100
 
 ### FAUCETWP PORTABLE EDITION/F2PE/珐骛丝小台常见问题
 
-待补充
+#### F2PE Options 上位机使用
+
+[点击下载上位机](https://support.gamo2.com/wp-content/uploads/2024/01/F2PE-Options-V1.9.zip)
+
+##### 烧录固件、切换模式、全局参数
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\image-1.png" alt="img" style="zoom:25%;" />
+
+| ①    | 打开固件按钮                                                 |
+| ---- | ------------------------------------------------------------ |
+| ②    | 显示当前固件版本号                                           |
+| ③    | 升级按钮                                                     |
+| ④    | 按键灯光缓慢灭下（600ms 是默认值，代表从亮度从最高亮度到 0，耗时 600ms） |
+| ⑤    | 对于 Output HID 的支持，如果使用 Spicetools 软件，建议选上   |
+| ⑥    | 这个亮度为全局灯光亮度，对 F2PE 所有灯光亮度都有作用         |
+| ⑦    | 按键去抖动时间，当出现按键多重触发时，可以增加数值，建议调节范围在 6-15ms。 不会产生触发延迟 |
+| ⑧    | 此功能仅仅影响选曲的灵敏度。在游戏界面不会对旋钮性能产生影响。 建议使用默认。 如果觉得太快，可以尝试 2； 如果觉得太慢，可以尝试 3； 不建议使用 1(这个功能对 KSM 和 USC，用处不大) |
+| ⑨    | KD 为 Knobs Debounce，旋钮去抖动。 建议使用默认。 在高速直角扭时，建议提前一点转动。 如果出现旋钮输出飘忽不定，可以尝试4 和 5 |
+| ⑩    | 切换语言，如果希望使用其他语言，可以自己修改 languagepack.xml |
+| ⑪    | 下拉菜单选择任意模式，点击切换按钮才能切换成功 默认为 eAcloud Layout |
+
+##### 键盘&鼠标布局
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\2024-01-19_22-35-25.png" alt="img" style="zoom:25%;" />
+
+| ①    | 点击映射按钮，按下键盘任意按键，即可绑定键值 |
+| ---- | -------------------------------------------- |
+| ②    | 下拉菜单选择鼠标 X 轴， Y 轴。               |
+| ③    | 与当前鼠标移动方向相反。                     |
+
+##### 键盘布局
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\image-2.png" alt="img" style="zoom:25%;" />
+
+| ①    | 点击映射按钮，按下键盘任意按键，即可绑定键值                 |
+| ---- | ------------------------------------------------------------ |
+| ②    | 点击映射按钮，映射 VOL-L 顺时针的键值，逆时针的键值。可以设为相同键值。 |
+| ③    | 点击映射按钮，映射 VOL-R 顺时针的键值，逆时针的键值。可以设为相同键值。 |
+| ④    | 顺时针键值，逆时针键值切换时，增加的延长时间。 在DJMAX RESPECT 和 EZ2ON 有一些用。 建议使用默认值 8ms。 |
+| ⑤    | 在旋钮停止时，键值保持的时间。可以根据自己的需要任意设置。   |
+
+##### Steam布局
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\image-3.png" alt="img" style="zoom:25%;" />
+
+| ①    | 下拉菜单，选择任意 DS4 的键值。支持选择相同的键值。 旋钮的模拟量与按键键值，有矛盾关系，不能设置为相同。 **例子：** 如果 VOL-L 设置为 LeftStick X-axis，那么按键不能设置为 LeftStick left，LeftStick right |
+| ---- | ------------------------------------------------------------ |
+| ②    | 指定旋钮为手柄上的任意一个轴                                 |
+| ③    | 指定旋钮顺时针输出一个键值，逆时针输出一个键值。可以设置为相同的键值 |
+| ④    | 反向旋转时，切换键值延迟的时间。对 DJMAX RESPECT 和 EZ2ON 游戏有效。 如果使用 1ms，这两个游戏可能会漏掉。 建议使用 8ms，不会影响判定 |
+| ⑤    | 旋钮停止时，保持键值的时间。可以根据需要设置                 |
+
+##### 灯光设置
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\image-4.png" alt="img" style="zoom:25%;" />
+
+| ①    | 设置 7 个按键和 2 个旋钮触发时的灯光颜色。 此处设置的 RGB 颜色的亮度，会受到全局灯光亮度的影响 |
+| ---- | ------------------------------------------------------------ |
+| ②    | BT 和 FX 文字的灯光颜色                                      |
+| ③    | 设置左右两侧的灯光颜色                                       |
+| ④    | 固定颜色，只能选择 1 种颜色                                  |
+| ⑤    | 渐变颜色，可以指定 2 种颜色。过渡颜色由算法自动完成          |
+
+#### 如何更换编码器
+
+1 使用 2.0mm 内六角扳手（或螺丝刀）拆解旋钮。注意每个旋钮有两个位置需要拧松。
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0100.png" alt="img" style="zoom:25%;" />
+
+2 注意，编码器上，有1个透明的垫片，注意取出
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0800.png" alt="img" style="zoom:25%;" />
+
+3 用2.0mm内六角扳手（或螺丝刀）去除背面3个螺丝，并取下盖板
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0300.png" alt="img" style="zoom:25%;" />
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0400.png" alt="img" style="zoom:25%;" />
+
+4 用钳子，拧松螺母，并取下金属垫圈
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0500.png" alt="img" style="zoom:25%;" />
+
+5 拔下白色插头并连接至新的编码器线路
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0600.png" alt="img" style="zoom:25%;" />
+
+6 将编码器装回控制器时，请注意将接线放置在编码器的侧下方，且编码器上的限位点对准控制器的开孔位置。
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0700.png" alt="img" style="zoom:25%;" />
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0701.png" alt="img" style="zoom:25%;" />
+
+7 装回金属垫圈，并用螺母固定编码器，然后将透明垫圈放置在螺母上方
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0800.png" alt="img" style="zoom:25%;" />
+
+8 将旋钮内部的长顶丝对准编码器轴的平面位置
+
+<img src="C:\Users\Several\OneDrive\桌面\FAQ\document\wiki\assets\0900.png" alt="img" style="zoom:25%;" />
+
+非常重要，必看:
+
+拧紧旋钮螺丝时，当感受到较大阻力后，再拧1/4圈就即可。否则，会损伤编码器的塑料轴
 
 ### 客制化小台常见问题
 

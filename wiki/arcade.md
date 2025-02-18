@@ -199,7 +199,11 @@ https://affinelab.notion.site/Aime-Manual-66c171d3fc144ae2bc4369d45000f0eb
 百度网盘https://pan.baidu.com/s/1Udrr586eTq3RxPlel6FvBw?pwd=0721
 
 ## SDVX常见问题
+### R18 live2d补丁包
+
 待补充
+
+**其他待补充**
 
 
 ## 太鼓达人常见问题
