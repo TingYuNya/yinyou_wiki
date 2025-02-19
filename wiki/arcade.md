@@ -325,55 +325,6 @@ https://github.com/asphyxia-core/plugins/releases
 
 
 
-**A网：http://arcana.nu**
-
-##### 说明
-
-邀请相对于理网较难一些
-
-##### 使用
-
-登录后进入 Account -> Machine，点击 Add Machine 就能生成一个属于你的 PCBID。
-有PCBID后就可以开始制作卡以及配置了。
-首先说制作卡，出勤人应该都知道打 SDVX 如果你没 EPASS 的话就只能以游客形式打，所以创建一张虚拟卡还是很有必要的，
-要创建卡，你只需要打开大佬开发的 ePass 生成器，随机生成一个卡号，然后在游戏根目录下创建一个 card0.txt，填入生成的卡号然后保存就行了。
-制作启动文件也很简单，打开大佬开发的启动文件生成器工具，选择私网、游戏名、一些锦上添花的选项、填上你的 PCBID，再点生成这个工具就能自动的帮你把.bat 文件制作出来了 。
-制作完成后把.bat 放在 SDVX 根目录下再运行即可成功联网游戏。
-第一次使用卡游戏会让你创建个人信息和四位 PIN，创建完成后别忘了在私网里也声明一下以便查分。
-举个栗子，如果你是 A 网，则需要在 Account -> card 里面绑定卡号以及 Pin。
-
-##### 一些有用的东西
-
-批处理指令
-
-###### 解除端口占用
-
-```
-netstat -ano | findstr PORT
-taskkill   /pid PID /f
-```
-
-###### Spice 单机游玩
-
-```
-start spice64 -sdvxdisablecams -url http://localhost:8083
-start asphyxia-core-x64
-```
-
-###### Spice 单机窗口游玩
-
-```
-start spice64 -w -sdvxdisablecams -url http://localhost:8083
-start asphyxia-core-x64
-```
-
-###### Spice 联网游玩
-
-```
-@echo off
-@spice64 -sdvx -url http://xrpc.arcana.nu/core -urlslash 0 -p 你的PCBID
-```
-
 ### live2d补丁包
 
 待补充
