@@ -21,7 +21,12 @@ export default defineConfig(withI18n({
           { text: '手台常见问题', link: '/wiki/controller' },
           { text: '手台配件购买', link: '/wiki/controller_accessories' },
           { text: '街机服务器', link: '/wiki/arcade_server' },
+          { text: '街机音游介绍', link: '/wiki/rhythm_present_mobile' },
           { text: '移动端音游介绍', link: '/wiki/rhythm_present_mobile' },
+          { text: 'PC端音游介绍', link: '/wiki/rhythm_present_mobile' },
+          { text: '音游梗百科', link: '/wiki/rhythm_present_mobile' },
+          { text: '曲师介绍', link: '/wiki/rhythm_present_mobile' },
+          { text: '收录曲介绍', link: '/wiki/rhythm_present_mobile' },
         ]
       }
     ],
