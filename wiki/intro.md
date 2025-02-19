@@ -12,7 +12,7 @@
 
 对于投稿内容，我们仅负责确保其真实性以及在一定范围内的合法性，由于人力审核，难免出现疏漏，请用户合理辨析内容，由于侵犯他人隐私/存在非法内容请及时联系开发者删除。
 
-我们目标是做一个全面详细的音游查询wiki，如果您有意投稿的话，请您将您所编写的栏目以及您的昵称留言至下方地址，或者Github上提交更新，我们将会在审核通过后在wiki上添加您编写的内容。
+我们目标是做一个全面详细的音游查询wiki，如果您有意投稿的话，请您将您所编写的栏目以及您的昵称留言至下方地址，或者Github上提交PR请求，我们将会在审核通过后在wiki上添加您编写的内容。
 
 地址： https://docs.qq.com/form/page/DS3BTd2ZWbnBDdVBB
 
@@ -23,5 +23,7 @@ Github：[TingYuNya/yinyou_wiki](https://github.com/TingYuNya/yinyou_wiki)
 主编：TingYuNya  Sakarina  Ricaran
 
 程序：Error063
+
+Wiki贡献者可在[Contributors to TingYuNya/yinyou_wiki](https://github.com/TingYuNya/yinyou_wiki/graphs/contributors)浏览
 
 以及所有wiki用户

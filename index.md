@@ -8,7 +8,7 @@ hero:
   tagline: 一个详细全面的Wiki
   actions:
     - theme: brand
-      text: Wiki
+      text: 前往查看
       link: /wiki/intro
 #    - theme: alt
 #      text: API Examples
@@ -22,4 +22,3 @@ hero:
 #  - title: Feature C
 #    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

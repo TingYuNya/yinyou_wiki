@@ -9,15 +9,13 @@ export default defineConfig(withI18n({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wiki', link: '/wiki' }
+      { text: 'Wiki', link: '/wiki/intro' }
     ],
 
     sidebar: [
       {
         text: 'Wiki',
         items: [
-          // { text: 'Markdown Examples', link: '/markdown-examples' },
-          // { text: 'Runtime API Examples', link: '/api-examples' },
           { text: '引子', link: '/wiki/intro' },
           { text: '街机常见问题', link: '/wiki/arcade' },
           { text: '手台常见问题', link: '/wiki/controller' },
@@ -27,8 +25,12 @@ export default defineConfig(withI18n({
       }
     ],
 
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    // ]
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/TingYuNya/yinyou_wiki' }
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/TingYuNya/yinyou_wiki/blob/master/:path'
+    }
   }
 }, { locales: ['zhHans'] }))
