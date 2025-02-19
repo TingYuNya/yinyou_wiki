@@ -20,9 +20,9 @@ Github：[TingYuNya/yinyou_wiki](https://github.com/TingYuNya/yinyou_wiki)
 
 ## 感谢名单
 
-主编：TingYuNya  Sakarina  Ricaran
+主编：**TingYuNya**  **Sakarina**  **Ricaran** **真菌**
 
-程序：Error063
+程序：**Error063**
 
 Wiki贡献者可在[Contributors to TingYuNya/yinyou_wiki](https://github.com/TingYuNya/yinyou_wiki/graphs/contributors)浏览
 

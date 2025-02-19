@@ -1110,7 +1110,17 @@ FANG台交流群：1041768100
 
 #### PH-AC台
 
-待补充
+交流群：954159439
+
+##### 开源地址
+
+https://github.com/ph-design/PH-AC
+
+https://makerworld.com.cn/zh/models/661895#profileId-605060
+
+##### 改键网页
+
+https://via.phdesign.cc
 
 ## IIDX手台
 
