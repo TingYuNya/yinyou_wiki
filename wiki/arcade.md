@@ -274,8 +274,11 @@ https://github.com/asphyxia-core/plugins/releases
 使用方法：
 本体和插件下载完成后把插件里的文件放入本体根目录下的【plugins】文件夹下，然后启动 asphyxia-core-win-x64.exe 即可，发现有网页弹出即代表本地服务器启动成功，记住网页上 CORE Settings 下面的 Port 数值（一般来说是 8083，其他端口号也没问题）。然后回到 SDVX 根目录下，新建一个叫 Game Start - local.bat 的文件（名字可以自己取），然后用记事本打开它，输入：
 
+```
 @echo off
 @spice -sdvx -url http://localhost:PORT数值 -w
+```
+
 然后保存退出，最后再双击运行那个.bat 文件就能成功启动游戏了。启动游戏之前别忘了先运行 spicecfg.exe 更改键位。进入游戏后有一步是让你刷卡，点小键盘的 + 即可模拟刷卡。
 
 联网游玩
@@ -310,20 +313,33 @@ A网：http://arcana.nu
 
 解除端口占用
 
+```
 netstat -ano | findstr PORT
 taskkill   /pid PID /f
+```
+
 Spice 单机游玩
 
+```
 start spice64 -sdvxdisablecams -url http://localhost:8083
 start asphyxia-core-x64
+```
+
 Spice 单机窗口游玩
 
+```
 start spice64 -w -sdvxdisablecams -url http://localhost:8083
 start asphyxia-core-x64
+```
+
 Spice 联网游玩
 
+```
 @echo off
 @spice64 -sdvx -url http://xrpc.arcana.nu/core -urlslash 0 -p 你的PCBID
+```
+
+
 ### R18 live2d补丁包
 
 待补充
