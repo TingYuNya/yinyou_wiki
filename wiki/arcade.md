@@ -225,17 +225,17 @@ https://github.com/Drewol/unnamed-sdvx-clone
 游戏根目录会生成一个【songs】文件夹
 将谱面文件夹放入即可
 
-#### 自制谱资源：
+### 自制谱资源：
 http://ksm.dev
 https://sites.google.com/site/ksh0hokansite/home/kshhokanko
 
 
-## HDD
+### HDD
 说明：
 6代因为依赖Cuda，支持N卡
 不支持Itel集显以及A卡
 
-## Spice Tool
+### Spice Tool
 下载地址：
 https://github.com/spicetools/spicetools/releases
 
@@ -260,7 +260,7 @@ spicecfg.exe 为配置文件，无论你是用的手台还是键盘，都要先�
 优点：没网也能玩，服务器就是你电脑，游戏数据也在你电脑上，有安全感。更重要的是，你不用去折腾啥网啥网的邀请积分啥的
 
 
-## Asphyxia core
+### Asphyxia core
 项目地址：
 https://asphyxia-core.github.io/
 本体下载：
