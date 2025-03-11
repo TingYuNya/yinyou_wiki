@@ -675,7 +675,7 @@ cell9=188
 cell7=0x4C 
 cell5=0x50 
 cell3=191 
-ell1=222
+cell1=222
 ```
 
 
